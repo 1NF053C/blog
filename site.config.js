@@ -1,35 +1,35 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: 'morethanmin',
+    name: 'Water',
     image: '/avatar.svg',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: 'frontend developer',
-    bio: 'I develop everything using node.',
-    email: 'morethanmin.dev@gmail.com',
-    linkedin: 'morethanmin',
-    github: 'morethanmin',
+    role: 'Developer',
+    bio: 'Life-long learner',
+    email: 'tbd',
+    linkedin: 'tbd',
+    github: '1NF053C',
     instagram: '',
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: 'https://github.com/morethanmin/morethan-log'
+      name: `tbd`,
+      href: 'https://github.com/1NF053C'
     }
   ],
   // blog setting (required)
   blog: {
-    title: 'morethan-log',
-    description: 'welcome to morethan-log!',
-    theme: 'light' // ['light', 'dark', 'auto']
+    title: 'My Blog',
+    description: 'Welcome to my blog',
+    theme: 'dark'
   },
 
   // CONFIG configration (required)
-  link: 'https://morethan-log.vercel.app',
-  since: 2022, // If leave this empty, current year will be used.
+  link: 'blog-sepia-beta.vercel.app',
+  //since: 2022, // If leave this empty, current year will be used.
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: 'https://og-image-korean.vercel.app', // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: '', // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['Blog', 'Website'],
   },
 
   // notion configuration (required)
