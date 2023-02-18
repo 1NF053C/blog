@@ -25,7 +25,7 @@ const CONFIG = {
 
   // CONFIG configration (required)
   link: 'blog-sepia-beta.vercel.app',
-  since: null,// 2023, // If leave this empty, current year will be used.
+  since: 2023,
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: '', // The link to generate OG image, don't end with a slash
   seo: {
